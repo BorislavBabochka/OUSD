@@ -47,7 +47,7 @@ Stablecoins also need to facilitate trading or be used as a store of value. Have
 
 The reality is, average users are not going to wrap and unwrap tokens, especially given the convoluted nature of doing so with XVH. Because of that, the burden falls on market makers, but the risk of market making for Haven’s assets is simply too high, leaving barren, inactive, and illiquid markets.
 
-On top of all of this, Haven is not truly programmatic. [Haven re-oracilizes through centralised endpoints controlled by Haven developers](https://github.com/haven-protocol-org/haven-offshore/blob/master/patches/src/cryptonote_core/blockchain.cpp.patch#L778), **meaning they have full control over the swap price between XVH and stable assets**. This is not okay, it is not secure, and it is not decentralised.
+On top of all of this, Haven is not truly programmatic. [Haven re-oracilizes through centralised endpoints controlled by Haven developers](https://github.com/haven-protocol-org/haven-offshore/blob/master/patches/src/cryptonote_core/blockchain.cpp.patch#L906), **meaning they have full control over the swap price between XVH and stable assets**. This is not okay, it is not secure, and it is not decentralised.
 
 There must be a better solution for a private stablecoin.
 
